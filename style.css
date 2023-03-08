@@ -1,5 +1,50 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+
 }
+header{
+  text-align: center;
+}
+
+img{
+  align-self: center;
+  /* Added a height and width , adjust it to fit your desired goal */
+  height:400px;
+  width :800px; 
+}
+
+figcaption{
+  font-size: x-small;
+  text-align: center;
+}
+.p1{
+
+  text-align: center;
+  padding: auto;
+  width: 600px;
+  margin:auto; /* thus helps center the paragraph */
+
+}
+
+/* this feature here centers the section with this id tag ie the image and footnote */
+#featured-property{
+  align-content: center!important;
+
+}
+figure{
+  text-align: center;
+
+}
+/* The footer section */
+
+#details{
+  display: flex; /* displays the info in a row */
+  background-color: red;
+  margin-top: 30px; /* This keeps a distance between the section and the section just above it */
+  justify-content: space-around; /* creates spaces between items in this section */
+
+}
+
+  
